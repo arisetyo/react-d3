@@ -5,9 +5,10 @@
  */
 
 import React from 'react';
-import {Documentation as AreaChartDoc} from './charts/AreaChart';
-import {Documentation as LineChartDoc} from './charts/LineChart';
-import {Documentation as SparkLineDoc} from './charts/SparkLine';
+// import {Documentation as AreaChartDoc} from './charts/AreaChart';
+// import {Documentation as LineChartDoc} from './charts/LineChart';
+// import {Documentation as SparkLineDoc} from './charts/SparkLine';
+import Donut from './charts/Donut';
 
 import styles from './App.css';
 import {sxywuData} from './utils';
@@ -20,11 +21,14 @@ const App = () => (
 		</div>
 
 		<div className={styles.container}>
-			<div className={styles.chart}><LineChartDoc/></div>
+			{/* <div className={styles.chart}><LineChartDoc/></div>
 			<div className={styles.chart}><AreaChartDoc/></div>
 
-			<div className={styles.chart}><SparkLineDoc/></div>
-			<div className={styles.chart}>...</div>
+			<div className={styles.chart}><SparkLineDoc/></div> */}
+			<div className={styles.chart}><Donut value={0.64}/></div>
+			<div className={styles.chart}><Donut value={0.24}/></div>
+			<div className={styles.chart}><Donut value={0.74}/></div>
+			<div className={styles.chart}><Donut value={0.97}/></div>
 		</div>
 	</div>
 );
