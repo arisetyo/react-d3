@@ -21,7 +21,7 @@
     "babel-plugin-react-css-modules": "^5.2.6",
     "chroma-js": "^2.0.4",
     "d3": "^5.11.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "react": "^16.8.6",
     "react-css-modules": "^4.7.11",
     "react-dom": "^16.8.6",
